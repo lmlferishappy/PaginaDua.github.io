@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Cormorant+Garamond|Nanum+Myeongjo|Pacifico|Poiret+One|Quicksand|Shadows+Into+Light+Two');
+body
+{
+  background-color: rgba(255, 255, 255, 0);
+  margin: 10px auto;
+  width: 80%;
+font-family: 'Shadows Into Light Two', cursive;
+}
+header>h1
+{
+  letter-spacing: 1px; /*Espacio entre letras*/
+  text-transform: uppercase; /*Transformacion de texto a mayusculas*/
+  font-weight: bold; /*Fuente en negritas*/
+  text-align: center; /*Alineacion del texto*/
+  text-shadow: rgb(19, 162, 29) 6px 6px 8px; /*Los tres numero de distancia horizontal, vertical y difuminado de la sombra*/
+}
+.logo-left
+{
+  float: left;
+  padding: 20px 0px 0px 20px;/*Superior, derecho, inferior, izquierdo*/
+  width: 120px;
+  height: 120px;
+}
+.logo-right
+{
+  float: right;
+  padding: 20px 20px 0px 20px;/*Superior, derecho, inferior, izquierdo*/
+  width: 120px;
+  height: 120px;
+}
+header
+{
+  width: 100%; /*establecemos que el header ocupe el 100% del documento*/
+  overflow: hidden;
+  background-color: rgba(184, 196, 201, 0.93);
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 25px 25px 0px 0px;/*Superior, derecho, inferior, izquierdo*/
+  border-style: none;
+}
+.contenedor
+{
+  padding: 10px 20px 10px 20px ;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 2em;/*Superior, derecho, inferior, izquierdo*/
+  box-shadow: 0px 5px 3px rgba(18, 242, 88, 0.4)
+}
+section
+{
+  float: left;
+  width: 70%;
+  text-align: justify;
+  margin-top: 10px;
+}
+nav
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+nav ul
+{
+  list-style: none;
+}
+nav li
+{
+  display: inline-block;
+  margin-right: 2px;
+  margin-top: 0.2em;
+}
+.boton
+{
+  background-color: #7f8c8d;
+  coloe:#046310;
+  display:inline-block;
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 140px;
+  text-decoration: none;
+  box-shadow: 0px 3px 5px #373c3c;
+
+}
+.boton.redondo
+{
+  border-radius: 30px;
+}
+.boton.gris
+{
+  background-color: #b8c4c9;
+  box-shadow: 0px 3px 5px #5d24d7;
+}
+.boton:hover
+{
+  background-color: rgb(142, 20, 237);
+  box-shadow: 0px 03px 5px rgb(181, 113, 242);
+  padding-top: 7px;
+  color: #fff;
+}
+aside
+{
+  float: right;
+  width: 30%
+  text-align:justify;
+  margin-top: 0px;
+}
+blockquote
+{
+margin-bottom: 5px;
+padding:  10px;
+border-radius:
+}
+footer
+{
+  width: 100%;
+  overflow: hidden;
+  background-color: #b8c4c9;
+  margin-bottom: 0px,auto;
+  padding: 0px;
+  border-radius: 0px 0px 25px 25px;
+  border-style: none;
+}
+.izquierda
+{
+  float: left;
+
+}
+.derecha
+{
+  float: right;
+  padding-right: 35px;
+}
+footer>p
+
+
+}
+article
+{
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(8, 235, 180);
+}
+.botonredes
+{
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  background-color: #e0e0e5;
+  border-radius: 100%;
+}
+.botonredes img
+{
+
+}
+.enlace-footer
+{
+  font-size: 10px;
+  color: rgb(36, 41, 38);
+  padding-right: 5px;
+  text-decoration: none;
+
+}
+.enlace-footer:hover
+{
+  color: rgb(95, 10, 148);
+  text-shadow: 0px 0px 5px rgb(187, 114, 252);
+  text-decoration: underline;
+
+}
